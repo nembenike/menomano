@@ -1,0 +1,43 @@
+body {
+  background-color: #1e1e2e;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1, h2, li {
+  color: #cdd6f4;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.smolimg {
+  width: 50px;
+  margin-right: 3rem;
+}
+
+img {
+  border-radius: 10px;
+  width: 200px;
+  margin-right: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
