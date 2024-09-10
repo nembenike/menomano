@@ -56,6 +56,7 @@ Console.WriteLine(num % 2 == 0 ? "Even" : "Odd");
 
 Console.WriteLine("Enter a number: ");
 int number = Convert.ToInt32(Console.ReadLine());
+
 switch (number)
 {
   case 10:
