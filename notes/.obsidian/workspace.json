@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cc82a97d1dfec441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "maths/Gyakorlás 240911.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,10 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "edb302a3ad1c26ae",
+  "active": "af63cd0cd06e5da2",
   "lastOpenFiles": [
-    "Welcome.md",
+    "physics",
     "history/Magyarország 1849 után.md",
+    "maths/Gyakorlás 240911.md",
+    "maths",
+    "Welcome.md",
     "history"
   ]
 }
