@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d2ab9705f09682ab",
+        "id": "f6b02d50f006f8da",
         "type": "tabs",
         "children": [
           {
-            "id": "edb302a3ad1c26ae",
+            "id": "4de092a11f6fd934",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "history/Magyarország 1849 után.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc82a97d1dfec441",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb6125245b3780cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6802c73dfc4dfeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "45df95dd58888cdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b0f0762e3eefd861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
+                "file": "history/Vendel a 19. században.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
+                "file": "history/Vendel a 19. században.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physics/0911/Mechanikai rezgések.md",
+                "file": "history/Vendel a 19. században.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physics/0911/Mechanikai rezgések.md"
+                "file": "history/Vendel a 19. században.md"
               }
             }
           }
@@ -208,23 +147,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0f0762e3eefd861",
+  "active": "4de092a11f6fd934",
   "lastOpenFiles": [
+    "history/Magyarország 1849 után.md",
+    "physics/0911/Mechanikai rezgések.md",
+    "README.md",
+    "history/Vendel a 19. században.md",
+    "maths/Gyakorlás 240911.md",
+    "history/Pasted image 20240912082752.png",
+    "physics/0911/Pasted image 20240911121431.png",
+    "Pasted image 20240912082623.png",
+    "Excalidraw/Drawing 2024-09-11 12.01.35.excalidraw.md",
     "physics/0911/Drawing 2024-09-11 12.15.01.excalidraw.md",
     "physics/0911/Drawing 2024-09-11 12.11.13.excalidraw.md",
-    "physics/0911/Mechanikai rezgések.md",
-    "physics/0911/Pasted image 20240911121431.png",
     "physics/0911/Pasted image 20240911115630.png",
     "physics/0911/Drawing 2024-09-11 11.52.18.excalidraw.md",
     "physics/0911/Drawing 2024-09-11 11.55.04.excalidraw.md",
     "physics/0911/Pasted image 20240911120509.png",
     "physics/0911/Pasted image 20240911115408.png",
     "physics/0911",
-    "Excalidraw/Drawing 2024-09-11 12.01.35.excalidraw.md",
     "Excalidraw",
-    "maths/Gyakorlás 240911.md",
-    "README.md",
-    "history/Magyarország 1849 után.md",
     "physics",
     "maths",
     "history"
