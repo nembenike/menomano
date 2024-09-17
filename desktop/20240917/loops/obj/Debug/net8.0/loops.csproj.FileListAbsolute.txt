@@ -1,0 +1,15 @@
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.GeneratedMSBuildEditorConfig.editorconfig
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.AssemblyInfoInputs.cache
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.AssemblyInfo.cs
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.csproj.CoreCompileInputs.cache
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.sourcelink.json
+/home/benike/dev/menomano/desktop/20240917/loops/bin/Debug/net8.0/loops
+/home/benike/dev/menomano/desktop/20240917/loops/bin/Debug/net8.0/loops.deps.json
+/home/benike/dev/menomano/desktop/20240917/loops/bin/Debug/net8.0/loops.runtimeconfig.json
+/home/benike/dev/menomano/desktop/20240917/loops/bin/Debug/net8.0/loops.dll
+/home/benike/dev/menomano/desktop/20240917/loops/bin/Debug/net8.0/loops.pdb
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.dll
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/refint/loops.dll
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.pdb
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/loops.genruntimeconfig.cache
+/home/benike/dev/menomano/desktop/20240917/loops/obj/Debug/net8.0/ref/loops.dll
