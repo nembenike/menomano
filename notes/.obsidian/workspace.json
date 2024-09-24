@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "maths/Gyakorlás 240912.md",
+                "file": "history/real.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "maths/Gyakorlás 240912.md",
+                "file": "history/real.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "maths/Gyakorlás 240912.md",
+                "file": "history/real.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "maths/Gyakorlás 240912.md"
+                "file": "history/real.md"
               }
             }
           }
@@ -150,12 +150,13 @@
   "active": "4de092a11f6fd934",
   "lastOpenFiles": [
     "history/Vendel a 19. században.md",
+    "history/real.md",
+    "history/Pasted image 20240912082752.png",
+    "physics/0911/Mechanikai rezgések.md",
     "maths/Gyakorlás 240912.md",
     "history/Magyarország 1849 után.md",
-    "physics/0911/Mechanikai rezgések.md",
     "README.md",
     "maths/Gyakorlás 240911.md",
-    "history/Pasted image 20240912082752.png",
     "physics/0911/Pasted image 20240911121431.png",
     "Pasted image 20240912082623.png",
     "Excalidraw/Drawing 2024-09-11 12.01.35.excalidraw.md",
