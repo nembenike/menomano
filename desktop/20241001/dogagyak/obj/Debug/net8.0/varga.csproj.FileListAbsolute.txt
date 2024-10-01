@@ -1,0 +1,14 @@
+c:\Users\Diák\dev\varga\bin\Debug\net8.0\varga.exe
+C:\Users\Diák\dev\varga\bin\Debug\net8.0\varga.deps.json
+C:\Users\Diák\dev\varga\bin\Debug\net8.0\varga.runtimeconfig.json
+c:\Users\Diák\dev\varga\bin\Debug\net8.0\varga.dll
+c:\Users\Diák\dev\varga\bin\Debug\net8.0\varga.pdb
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.AssemblyInfoInputs.cache
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.AssemblyInfo.cs
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.csproj.CoreCompileInputs.cache
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.dll
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\refint\varga.dll
+c:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.pdb
+C:\Users\Diák\dev\varga\obj\Debug\net8.0\varga.genruntimeconfig.cache
+C:\Users\Diák\dev\varga\obj\Debug\net8.0\ref\varga.dll
