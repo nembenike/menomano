@@ -1,0 +1,1 @@
+___Mechanikai hullámok___

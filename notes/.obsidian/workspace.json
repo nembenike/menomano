@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "history/real.md",
+                "file": "history/Vendel a 19. században.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1417dc327f15c97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/Fizika.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "history/real.md",
+                "file": "physics/Fizika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "history/real.md",
+                "file": "physics/Fizika.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "history/real.md"
+                "file": "physics/Fizika.md"
               }
             }
           }
@@ -147,16 +160,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4de092a11f6fd934",
+  "active": "af63cd0cd06e5da2",
   "lastOpenFiles": [
+    "README.md",
+    "physics/Fizika.md",
     "history/Vendel a 19. században.md",
+    "fizika",
     "history/real.md",
+    "history/Magyarország 1849 után.md",
+    "maths/Gyakorlás 240911.md",
     "history/Pasted image 20240912082752.png",
     "physics/0911/Mechanikai rezgések.md",
     "maths/Gyakorlás 240912.md",
-    "history/Magyarország 1849 után.md",
-    "README.md",
-    "maths/Gyakorlás 240911.md",
     "physics/0911/Pasted image 20240911121431.png",
     "Pasted image 20240912082623.png",
     "Excalidraw/Drawing 2024-09-11 12.01.35.excalidraw.md",
