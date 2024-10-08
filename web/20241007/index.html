@@ -1,0 +1,95 @@
+<!--
+2024.10.07 WebProg
+Berényi Bence 11.D
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://picocss.com/pico.min.css">
+    <title>WebProg</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    >
+</head>
+<body>
+    <main class="container">
+        <h1>Berényi Bence 11.D</h1>
+        <section>
+            <h2>1. és 2. feladat</h2>
+            <form id="numberForm">
+                <label for="num1">Első szám:</label>
+                <input type="number" id="num1" required>
+                <label for="num2">Második szám:</label>
+                <input type="number" id="num2" required>
+                <button type="submit">Küldés</button>
+            </form>
+            <div id="evenNumbers"></div>
+            <div id="reverseNumbers"></div>
+        </section>
+
+        <section>
+            <h2>3. feladat</h2>
+            <form id="textForm">
+                <label for="textInput">Írj be egy szöveget:</label>
+                <input type="text" id="textInput" required>
+                <button type="submit">Küldés</button>
+            </form>
+            <div id="numberInfo"></div>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('numberForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const num1 = parseInt(document.getElementById('num1').value);
+            const num2 = parseInt(document.getElementById('num2').value);
+
+            if (isNaN(num1) || isNaN(num2)) {
+                alert('Kérlek, érvényes számokat adj meg!');
+                return;
+            }
+
+            const min = Math.min(num1, num2);
+            const max = Math.max(num1, num2);
+            let evenNumbers = '';
+
+            for (let i = min; i <= max; i++) {
+                if (i % 2 === 0) {
+                    evenNumbers += i + ' ';
+                }
+            }
+
+            document.getElementById('evenNumbers').innerText = 'Páros számok: ' + evenNumbers;
+
+            let reverseNumbers = '';
+            for (let i = max; i >= min; i--) {
+                reverseNumbers += i + ' ';
+            }
+
+            document.getElementById('reverseNumbers').innerText = 'Visszafelé: ' + reverseNumbers;
+        });
+        
+        // lehetne substrt használni mint ahogy a feladatban ki van írva de nem látom értelmét
+        document.getElementById('textForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const textInput = document.getElementById('textInput').value;
+            let numbers = '';
+            let sum = 0;
+
+            for (let i = 0; i < textInput.length; i++) {
+                const char = textInput.charAt(i);
+                if (char >= '0' && char <= '9') {
+                    numbers += char;
+                    sum += parseInt(char);
+                }
+            }
+
+            document.getElementById('numberInfo').innerText = 'Szám: ' + numbers + ', Összeg: ' + sum;
+        });
+    </script>
+</body>
+</html>
