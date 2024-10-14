@@ -1,0 +1,48 @@
+<!--
+2024.10.07 WebProg
+Berényi Bence 11.D
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Első feladat</title>
+</head>
+<body>
+
+<ul id="numberList"></ul>
+<p>Összeg: <span id="sum"></span></p>
+
+<script>
+    let numbers = [4, 9, 15, 2, 8];
+    console.table(numbers);
+    console.log("A tömb elemeinek száma: " + numbers.length);
+    for (let i = 0; i < numbers.length; i++) {
+        console.log(numbers[i]);
+    }
+
+    for (let i = 0; i < numbers.length; i++) {
+        numbers[i] = Math.floor(Math.random() * 21) - 10;
+    }
+    console.table(numbers);
+
+    numbers.push(Math.floor(Math.random() * 21) - 10);
+
+    let ul = document.getElementById('numberList');
+    for (let i = 0; i < numbers.length; i++) {
+        let li = document.createElement('li');
+        li.textContent = numbers[i];
+        ul.appendChild(li);
+    }
+
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+    }
+    document.getElementById('sum').textContent = sum;
+</script>
+
+</body>
+</html>

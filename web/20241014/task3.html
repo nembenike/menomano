@@ -1,0 +1,85 @@
+<!--
+2024.10.07 WebProg
+Berényi Bence 11.D
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmadik feladat</title>
+</head>
+<body>
+
+<h2>Születési évek és életkorok</h2>
+<table id="birthdaysTable" border="1">
+    <thead>
+        <tr>
+            <th>Születési év</th>
+            <th>Életkor</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<p>Legfiatalabb: <span id="youngest"></span></p>
+<p>Legidősebb: <span id="oldest"></span></p>
+<p>Átlagéletkor: <span id="average"></span></p>
+
+<p>Első kivett elem: <span id="firstRemoved"></span></p>
+<p>Utolsó kivett elem: <span id="lastRemoved"></span></p>
+
+<script>
+    let birthYears = [1983, 2001, 1996, 1999, 2005];
+    const currentYear = new Date().getFullYear();
+
+    let tbody = document.querySelector('#birthdaysTable tbody');
+    for (let i = 0; i < birthYears.length; i++) {
+        let row = document.createElement('tr');
+        let yearCell = document.createElement('td');
+        let ageCell = document.createElement('td');
+        yearCell.textContent = birthYears[i];
+        ageCell.textContent = currentYear - birthYears[i];
+        row.appendChild(yearCell);
+        row.appendChild(ageCell);
+        tbody.appendChild(row);
+    }
+
+    let youngest = birthYears[0];
+    let oldest = birthYears[0];
+    let sumAges = 0;
+
+    for (let i = 0; i < birthYears.length; i++) {
+        let age = currentYear - birthYears[i];
+        sumAges += age;
+        if (birthYears[i] > youngest) {
+            youngest = birthYears[i];
+        }
+        if (birthYears[i] < oldest) {
+            oldest = birthYears[i];
+        }
+    }
+    let average = Math.round(sumAges / birthYears.length);
+    
+    document.getElementById('youngest').textContent = youngest;
+    document.getElementById('oldest').textContent = oldest;
+    document.getElementById('average').textContent = average;
+
+    let firstRemoved = birthYears.shift();
+    let lastRemoved = birthYears.pop();
+    
+    document.getElementById('firstRemoved').textContent = firstRemoved;
+    document.getElementById('lastRemoved').textContent = lastRemoved;
+
+    function updateArray(newYear) {
+        birthYears.push(newYear);
+        birthYears.shift();
+        console.log(birthYears);
+    }
+
+    updateArray(2003);
+</script>
+
+</body>
+</html>

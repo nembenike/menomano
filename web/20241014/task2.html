@@ -1,0 +1,63 @@
+<!--
+2024.10.07 WebProg
+Berényi Bence 11.D
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persely</title>
+</head>
+<body>
+
+<h2>Aktuális egyenleg: <span id="balance"></span></h2>
+
+<h3>Bevételek és Kivételek:</h3>
+<ol id="transactions"></ol>
+
+<h3>Bevételek:</h3>
+<ul id="incomes"></ul>
+
+<h3>Kivételek:</h3>
+<ul id="expenses"></ul>
+
+<script>
+    const transactions = [2000, -500, 1000, -200, 3000, -1000, 500, -700, 1200, -300];
+    console.table(transactions);
+
+    let balance = 0;
+    for (let i = 0; i < transactions.length; i++) {
+        balance += transactions[i];
+    }
+    document.getElementById('balance').textContent = balance + " Ft";
+
+    let transactionsList = document.getElementById('transactions');
+    for (let i = 0; i < transactions.length; i++) {
+        let li = document.createElement('li');
+        li.textContent = transactions[i] + " Ft";
+        if (transactions[i] > 0) {
+            li.style.color = 'green';
+        } else {
+            li.style.color = 'red';
+        }
+        transactionsList.appendChild(li);
+    }
+
+    let incomesList = document.getElementById('incomes');
+    let expensesList = document.getElementById('expenses');
+    
+    for (let i = 0; i < transactions.length; i++) {
+        let li = document.createElement('li');
+        li.textContent = transactions[i] + " Ft";
+        if (transactions[i] > 0) {
+            incomesList.appendChild(li);
+        } else {
+            expensesList.appendChild(li);
+        }
+    }
+</script>
+
+</body>
+</html>
