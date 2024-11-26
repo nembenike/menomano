@@ -2,17 +2,42 @@
 // Asztali alkalmazás fejlesztések óra
 // 2024.11.26
 
-// Sok linq mágia volt használva a kódban, és classokat is használtam de így jobban readable
+// volt linq mágia volt a kódban, és classokat is használtam de így jobban readable
 
 namespace Shop {
   class Program {
     static List<Product> warehouse = new List<Product>();
     static List<CartItem> cart = new List<CartItem>();
 
+    class Product {
+      public string Name { get; set; }
+      public double Price { get; set; }
+      public int Quantity { get; set; }
+
+      public Product(string name, double price, int quantity) {
+        Name = name;
+        Price = price;
+        Quantity = quantity;
+      }
+    }
+
+    class CartItem {
+      public string Name { get; set; }
+      public int Quantity { get; set; }
+
+      public CartItem(string name, int quantity) {
+        Name = name;
+        Quantity = quantity;
+      }
+    }
+
     static void Main(string[] args) {
       warehouse.Add(new Product("Alma", 300, 10));
       warehouse.Add(new Product("Banán", 150, 20));
       warehouse.Add(new Product("Narancs", 240, 15));
+      warehouse.Add(new Product("Kenyér", 200, 5));
+      warehouse.Add(new Product("Alsópolcos Bor", 1500, 3));
+      warehouse.Add(new Product("Gémergép", 300000, 1));
 
       while (true) {
         Console.WriteLine("1. Display warehouse products");
@@ -218,28 +243,6 @@ namespace Shop {
       foreach (var product in sort) {
         Console.WriteLine($"{product.Name} - {product.Price} HUF - {product.Quantity} in stock");
       }
-    }
-  }
-
-  class Product {
-    public string Name { get; set; }
-    public double Price { get; set; }
-    public int Quantity { get; set; }
-
-    public Product(string name, double price, int quantity) {
-      Name = name;
-      Price = price;
-      Quantity = quantity;
-    }
-  }
-
-  class CartItem {
-    public string Name { get; set; }
-    public int Quantity { get; set; }
-
-    public CartItem(string name, int quantity) {
-      Name = name;
-      Quantity = quantity;
     }
   }
 }
