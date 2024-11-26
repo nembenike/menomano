@@ -10,9 +10,9 @@ namespace Shop {
     static List<CartItem> cart = new List<CartItem>();
 
     static void Main(string[] args) {
-      warehouse.Add(new Product("Alma", 1.0, 10));
-      warehouse.Add(new Product("Banán", 0.5, 20));
-      warehouse.Add(new Product("Narancs", 0.8, 15));
+      warehouse.Add(new Product("Alma", 300, 10));
+      warehouse.Add(new Product("Banán", 150, 20));
+      warehouse.Add(new Product("Narancs", 240, 15));
 
       while (true) {
         Console.WriteLine("1. Display warehouse products");
@@ -84,7 +84,7 @@ namespace Shop {
     static void DisplayWarehouseProducts() {
       Console.WriteLine("Warehouse Products:");
       foreach (var product in warehouse) {
-        Console.WriteLine($"{product.Name} - ${product.Price} - {product.Quantity} in stock");
+        Console.WriteLine($"{product.Name} - {product.Price} HUF - {product.Quantity} in stock");
       }
     }
 
@@ -146,17 +146,17 @@ namespace Shop {
         var product = warehouse.FirstOrDefault(p => p.Name == item.Name);
         if (product != null) {
           total += item.Quantity * product.Price;
-          Console.WriteLine($"{item.Name} - {item.Quantity} x ${product.Price} = ${item.Quantity * product.Price}");
+          Console.WriteLine($"{item.Name} - {item.Quantity} x {product.Price} HUF = {item.Quantity * product.Price} HUF");
         }
       }
-      Console.WriteLine($"Total: ${total}");
+      Console.WriteLine($"Total: {total} HUF");
       cart.Clear();
     }
 
     static void DisplayMostExpensiveProduct() {
       var product = warehouse.OrderByDescending(p => p.Price).FirstOrDefault();
       if (product != null) {
-        Console.WriteLine($"Most expensive product: {product.Name} - ${product.Price}");
+        Console.WriteLine($"Most expensive product: {product.Name} - {product.Price} HUF");
       } else {
         Console.WriteLine("No products in warehouse.");
       }
@@ -165,7 +165,7 @@ namespace Shop {
     static void DisplayCheapestProduct() {
       var product = warehouse.OrderBy(p => p.Price).FirstOrDefault();
       if (product != null) {
-        Console.WriteLine($"Cheapest product: {product.Name} - ${product.Price}");
+        Console.WriteLine($"Cheapest product: {product.Name} - {product.Price} HUF");
       } else {
         Console.WriteLine("No products in warehouse.");
       }
@@ -193,7 +193,7 @@ namespace Shop {
           total += item.Quantity * product.Price;
         }
       }
-      Console.WriteLine($"Total cart value: ${total}");
+      Console.WriteLine($"Total cart value: {total} HUF");
     }
 
     static void AddNewProductToWarehouse() {
@@ -216,7 +216,7 @@ namespace Shop {
     static void SortWarehouseProductsByPrice() {
       var sort = warehouse.OrderBy(p => p.Price).ToList();
       foreach (var product in sort) {
-        Console.WriteLine($"{product.Name} - ${product.Price} - {product.Quantity} in stock");
+        Console.WriteLine($"{product.Name} - {product.Price} HUF - {product.Quantity} in stock");
       }
     }
   }
