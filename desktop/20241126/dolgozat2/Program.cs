@@ -214,8 +214,10 @@ namespace Shop {
     }
 
     static void SortWarehouseProductsByPrice() {
-      warehouse = warehouse.OrderBy(p => p.Price).ToList();
-      Console.WriteLine("Warehouse products sorted by price.");
+      var sort = warehouse.OrderBy(p => p.Price).ToList();
+      foreach (var product in sort) {
+        Console.WriteLine($"{product.Name} - ${product.Price} - {product.Quantity} in stock");
+      }
     }
   }
 
