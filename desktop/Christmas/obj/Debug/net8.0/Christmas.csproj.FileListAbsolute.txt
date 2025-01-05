@@ -1,0 +1,14 @@
+C:\Users\Xy\Desktop\dev\opengl\Christmas\bin\Debug\net8.0\Christmas.exe
+C:\Users\Xy\Desktop\dev\opengl\Christmas\bin\Debug\net8.0\Christmas.deps.json
+C:\Users\Xy\Desktop\dev\opengl\Christmas\bin\Debug\net8.0\Christmas.runtimeconfig.json
+C:\Users\Xy\Desktop\dev\opengl\Christmas\bin\Debug\net8.0\Christmas.dll
+C:\Users\Xy\Desktop\dev\opengl\Christmas\bin\Debug\net8.0\Christmas.pdb
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.AssemblyInfoInputs.cache
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.AssemblyInfo.cs
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.csproj.CoreCompileInputs.cache
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.dll
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\refint\Christmas.dll
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.pdb
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\Christmas.genruntimeconfig.cache
+C:\Users\Xy\Desktop\dev\opengl\Christmas\obj\Debug\net8.0\ref\Christmas.dll
