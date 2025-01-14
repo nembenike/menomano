@@ -42,8 +42,32 @@ namespace Feladat {
       this.Name = "Random koordináta";
     }
 
+    public static double getDistance(Pont P, Pont Q) {
+      double d;
+      d = Math.Sqrt(Math.Pow((P.X-P.Y),2)+Math.Pow((Q.X-Q.Y), 2));
+      return d;
+    }
+
+    public void swapPoints() {
+      int temp;
+      temp = x;
+      x = y;
+      y = temp;
+      Console.WriteLine($"The point coordinates have been switched\n New coordinates X: {X}, Y: {Y}");
+    }
+
+    public void enlargePoint(int multiplier) {
+      x *= multiplier;
+      y *= multiplier;
+      Console.WriteLine($"Point has been enlarged\n New Coordinates X: {X} Y: {Y}");
+    }
+
+    public bool isOrigin(Pont point) {
+      return X == 0 && Y == 0;
+    }
+
     public override string ToString() {
-      return $"X: {X} Y: {Y} Name: {Name}";
+       return $"X: {X} Y: {Y} Name: {Name}";
     }
   }
 }

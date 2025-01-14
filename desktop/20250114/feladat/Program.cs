@@ -19,6 +19,18 @@ namespace Feladat {
       Pont pont3 = new Pont(vector);
       Console.WriteLine(pont3);
 
+
+      Console.WriteLine("Add meg az intervallum első felét:");
+      int first1 = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Add meg az intervallum második felét");
+      int second2 = Convert.ToInt32(Console.ReadLine());
+
+      Vector2 vector2 = new Vector2(first1, second2);
+
+      Pont pont4 = new Pont(vector);
+      Console.WriteLine(pont3);
+
+      Console.WriteLine($"The distance between the two points is {Pont.getDistance(pont3, pont4)}");
     }
   }
 }
