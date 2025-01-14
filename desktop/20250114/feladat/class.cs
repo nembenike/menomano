@@ -5,6 +5,7 @@ namespace Feladat {
     // Variables
     private int X, Y;
     private string Name;
+    Random rng = new Random();
 
     // Getters and Setters
     public int x {
@@ -36,9 +37,8 @@ namespace Feladat {
     }
 
     public Pont(Vector2 vector) {
-      Random rng = new Random();
-      this.X = rng.Next(0, (int)vector.X + 1); 
-      this.Y = rng.Next(0, (int)vector.Y + 1);
+      this.X = rng.Next((int)vector.X, (int)vector.Y + 1); 
+      this.Y = rng.Next((int)vector.X, (int)vector.Y + 1);
       this.Name = "Random koordináta";
     }
 
