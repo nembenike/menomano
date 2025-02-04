@@ -1,10 +1,15 @@
 ﻿namespace OOPalapok {
   class Program {
     static void Main(string[] args) {
-      Ember ember1 = new Ember(70.5, 175);
-      Console.WriteLine(ember1.ToString());
-      Console.WriteLine($"TTI: {ember1.TestTomegIndex()}");
-      Console.WriteLine($"Normál TTI: {ember1.NormalTTI()}");
+      Emberek emberek = new Emberek(3);
+
+      emberek.lista.Add(new Ember(70.5, 175));
+      emberek.lista.Add(new Ember(63.3, 160));
+      emberek.lista.Add(new Ember(87.4, 158));
+
+      Console.WriteLine(emberek.ToString());
+
+      Console.WriteLine($"Átlagos testsúly: {emberek.AtlagosTestSuly():F1} kg");
     }
   }
 }

@@ -1,14 +1,14 @@
 namespace OOPalapok {
   internal class Ember {
-    private double testSuly {get;set;}
-    private int testMagassag {get;set;}
+    private double testSuly { get; set; }
+    private int testMagassag { get; set; }
 
     public Ember(double testSuly, int testMagassag) {
       this.testSuly = testSuly;
       this.testMagassag = testMagassag;
     }
 
-    public override string ToString(){
+    public override string ToString() {
       return $"Magasság: {testMagassag} cm, Súly: {testSuly:F1} kg";
     }
 
@@ -21,5 +21,8 @@ namespace OOPalapok {
       double tti = TestTomegIndex();
       return tti >= 18.5 && tti < 25;
     }
+
+    public double TestSuly => testSuly;
+    public int TestMagassag => testMagassag;
   }
 }
