@@ -1,0 +1,15 @@
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/bin/Debug/net8.0/iskola
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/bin/Debug/net8.0/iskola.deps.json
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/bin/Debug/net8.0/iskola.runtimeconfig.json
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/bin/Debug/net8.0/iskola.dll
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/bin/Debug/net8.0/iskola.pdb
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.GeneratedMSBuildEditorConfig.editorconfig
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.AssemblyInfoInputs.cache
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.AssemblyInfo.cs
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.csproj.CoreCompileInputs.cache
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.sourcelink.json
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.dll
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/refint/iskola.dll
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.pdb
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/iskola.genruntimeconfig.cache
+/home/benike/dev/menomano/desktop/dolgozat2/iskola/obj/Debug/net8.0/ref/iskola.dll
