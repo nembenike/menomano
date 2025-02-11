@@ -20,13 +20,14 @@ namespace iskola {
     }
 
     public void OsszesDiakListazasa() {
+      System.Console.WriteLine("Az alabbi diakok vannak az osztalyban:");
       foreach (var item in diakok) {
         System.Console.WriteLine(item.nev);
       }
     }
 
     public void OsztalyfonokKiirasa() {
-      System.Console.WriteLine(osztalyfonok.nev);
+      System.Console.WriteLine($"Az osztaly osztalyfonoke: {osztalyfonok.nev}");
     }
   }
 }

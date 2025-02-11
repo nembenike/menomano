@@ -11,7 +11,7 @@ namespace iskola {
     }
 
     public void TeljesNevKiirasa() {
-      System.Console.WriteLine($"{nev} {osztaly}");
+      System.Console.WriteLine($"Diak neve: {nev} Osztalya: {osztaly}");
     }
   }
 }

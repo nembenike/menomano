@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("iskola")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+866e62e8fcb2371b431fe37ba8354e9d142b2b17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a7f224ed80a474d65372b3ec09c1dfd321e3168")]
 [assembly: System.Reflection.AssemblyProductAttribute("iskola")]
 [assembly: System.Reflection.AssemblyTitleAttribute("iskola")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

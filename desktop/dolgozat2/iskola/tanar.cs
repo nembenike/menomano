@@ -16,7 +16,8 @@ namespace iskola {
     }
 
     public void OktatottTantargyak() {
-      foreach (var item in tantargyak) {
+      System.Console.WriteLine($"{nev} oktatja a kovetkezo tantargyakat:");
+      foreach (Tantargy item in tantargyak) {
         System.Console.WriteLine(item.nev);
       }
     }
