@@ -1,0 +1,15 @@
+/home/benike/dev/menomano/desktop/20250401/dolgozat/bin/Debug/net9.0/dolgozat
+/home/benike/dev/menomano/desktop/20250401/dolgozat/bin/Debug/net9.0/dolgozat.deps.json
+/home/benike/dev/menomano/desktop/20250401/dolgozat/bin/Debug/net9.0/dolgozat.runtimeconfig.json
+/home/benike/dev/menomano/desktop/20250401/dolgozat/bin/Debug/net9.0/dolgozat.dll
+/home/benike/dev/menomano/desktop/20250401/dolgozat/bin/Debug/net9.0/dolgozat.pdb
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.GeneratedMSBuildEditorConfig.editorconfig
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.AssemblyInfoInputs.cache
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.AssemblyInfo.cs
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.csproj.CoreCompileInputs.cache
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.sourcelink.json
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.dll
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/refint/dolgozat.dll
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.pdb
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/dolgozat.genruntimeconfig.cache
+/home/benike/dev/menomano/desktop/20250401/dolgozat/obj/Debug/net9.0/ref/dolgozat.dll
